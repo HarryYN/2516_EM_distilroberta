@@ -80,4 +80,4 @@ def replace_val(in_str, col_num, dst_str):
   return "VAL".join(val_splitted)
 
 if __name__ == "__main__":
-  back_trans_col_based("AGtrain.txt")
+  back_trans_col_based("train.txt")
