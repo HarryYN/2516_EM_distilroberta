@@ -1,5 +1,5 @@
 from back_translators import GoogleBackTranslator
-GBT = GoogleBackTranslator('en', use_googletrans=True)
+GBT = GoogleBackTranslator('en', use_googletrans=False)
 
 def back_trans_col_based(f_path, col_num=0, subset_size=50):
   '''
